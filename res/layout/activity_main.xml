@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/actionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/actionSubmitButton"
+        android:ems="10"
+        android:hint="@string/input_action" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emotionSubmitButton"
+        android:layout_marginTop="68dp" />
+
+    <EditText
+        android:id="@+id/emotionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/actionInput"
+        android:layout_toLeftOf="@+id/actionSubmitButton"
+        android:ems="10"
+        android:hint="@string/input_emotion" />
+
+    <Button
+        android:id="@+id/actionSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emotionInput"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_submit" />
+
+    <Button
+        android:id="@+id/emotionSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emotionInput"
+        android:layout_alignLeft="@+id/actionSubmitButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/emotionInput"
+        android:text="@string/button_submit" />
+
+</RelativeLayout>
