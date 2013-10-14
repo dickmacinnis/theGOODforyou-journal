@@ -26,10 +26,18 @@ public final class R {
     public static final class id {
         public static final int actionInput=0x7f080000;
         public static final int actionSubmitButton=0x7f080001;
-        public static final int action_settings=0x7f080005;
-        public static final int emotionInput=0x7f080004;
-        public static final int emotionSubmitButton=0x7f080003;
+        public static final int action_settings=0x7f08000d;
+        public static final int alarmInput=0x7f080008;
+        public static final int dietInput=0x7f08000a;
+        public static final int emotionInput=0x7f080003;
+        public static final int emotionSubmitButton=0x7f080004;
+        public static final int exerciseInput=0x7f08000b;
+        public static final int journalInput=0x7f08000c;
+        public static final int noteToSelfInput=0x7f080005;
+        public static final int reminderInput=0x7f080007;
         public static final int textView=0x7f080002;
+        public static final int timerInput=0x7f080009;
+        public static final int toDoInput=0x7f080006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -42,7 +50,15 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int button_submit=0x7f050002;
         public static final int input_action=0x7f050003;
+        public static final int input_alarm=0x7f050007;
+        public static final int input_diet=0x7f05000a;
         public static final int input_emotion=0x7f050004;
+        public static final int input_exercise=0x7f05000b;
+        public static final int input_journal=0x7f050009;
+        public static final int input_notetoself=0x7f050005;
+        public static final int input_reminder=0x7f050006;
+        public static final int input_timer=0x7f050008;
+        public static final int input_todo=0x7f05000c;
     }
     public static final class style {
         /** 

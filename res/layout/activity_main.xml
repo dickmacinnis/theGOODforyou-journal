@@ -24,9 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/emotionSubmitButton"
-        android:layout_marginTop="68dp" />
+        android:layout_alignParentRight="true" />
 
     <EditText
         android:id="@+id/emotionInput"
@@ -55,5 +53,88 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/emotionInput"
         android:text="@string/button_submit" />
+
+    <EditText
+        android:id="@+id/noteToSelfInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emotionInput"
+        android:layout_below="@+id/emotionInput"
+        android:layout_toLeftOf="@+id/emotionSubmitButton"
+        android:ems="10"
+        android:hint="@string/input_notetoself" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/toDoInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/noteToSelfInput"
+        android:layout_below="@+id/noteToSelfInput"
+        android:ems="10"
+        android:hint="@string/input_todo" />
+
+    <EditText
+        android:id="@+id/reminderInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/toDoInput"
+        android:layout_below="@+id/toDoInput"
+        android:ems="10"
+        android:hint="@string/input_reminder" />
+
+    <EditText
+        android:id="@+id/alarmInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reminderInput"
+        android:layout_alignRight="@+id/reminderInput"
+        android:layout_below="@+id/reminderInput"
+        android:ems="10"
+        android:hint="@string/input_alarm" />
+
+    <EditText
+        android:id="@+id/timerInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alarmInput"
+        android:layout_alignRight="@+id/alarmInput"
+        android:layout_below="@+id/alarmInput"
+        android:ems="10"
+        android:hint="@string/input_timer" />
+
+    <EditText
+        android:id="@+id/dietInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timerInput"
+        android:layout_alignRight="@+id/timerInput"
+        android:layout_below="@+id/timerInput"
+        android:ems="10"
+        android:hint="@string/input_diet" />
+
+    <EditText
+        android:id="@+id/exerciseInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dietInput"
+        android:layout_alignRight="@+id/dietInput"
+        android:layout_below="@+id/dietInput"
+        android:ems="10"
+        android:hint="@string/input_exercise" />
+
+    <EditText
+        android:id="@+id/journalInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exerciseInput"
+        android:layout_alignRight="@+id/exerciseInput"
+        android:layout_below="@+id/exerciseInput"
+        android:ems="10"
+        android:hint="@string/input_journal" />
 
 </RelativeLayout>
