@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/journalInput" />
 
     <EditText
         android:id="@+id/emotionInput"
@@ -136,5 +137,51 @@
         android:layout_below="@+id/exerciseInput"
         android:ems="10"
         android:hint="@string/input_journal" />
+
+    <Button
+        android:id="@+id/noteToSelfSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/noteToSelfInput"
+        android:layout_alignRight="@+id/emotionSubmitButton"
+        android:layout_alignTop="@+id/noteToSelfInput"
+        android:layout_toRightOf="@+id/emotionInput"
+        android:text="@string/button_submit" />
+
+    <Button
+        android:id="@+id/dietSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dietInput"
+        android:layout_alignLeft="@+id/toDoSubmitButton"
+        android:layout_alignTop="@+id/dietInput"
+        android:text="@string/button_submit" />
+
+    <Button
+        android:id="@+id/exerciseSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/exerciseInput"
+        android:layout_alignLeft="@+id/dietSubmitButton"
+        android:layout_alignTop="@+id/exerciseInput"
+        android:text="@string/button_submit" />
+
+    <Button
+        android:id="@+id/journalSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/journalInput"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/journalInput"
+        android:text="@string/button_submit" />
+
+    <Button
+        android:id="@+id/toDoSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toDoInput"
+        android:layout_alignTop="@+id/toDoInput"
+        android:layout_toRightOf="@+id/toDoInput"
+        android:text="@string/button_submit" />
 
 </RelativeLayout>
