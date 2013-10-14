@@ -6,13 +6,13 @@
     <string name="button_submit">Submit</string>
     <string name="input_action">What are you doing?</string>
     <string name="input_emotion">How do you feel?</string>
-    <string name="input_notetoself">Note to self...</string>
-    <string name="input_reminder">Remind me to...</string>
-    <string name="input_alarm">Create alarm...</string>
-    <string name="input_timer">Track time...</string>
-    <string name="input_journal">Journal...</string>
-    <string name="input_diet">Food and drink...</string>
-    <string name="input_exercise">Exercise...</string>
-    <string name="input_todo">Add to ToDo list...</string>
+    <string name="input_notetoself">Note to self&#8230;</string>
+    <string name="input_reminder">Remind me to&#8230;</string>
+    <string name="input_alarm">Create alarm&#8230;</string>
+    <string name="input_timer">Track time&#8230;</string>
+    <string name="input_journal">Journal&#8230;</string>
+    <string name="input_diet">Food and drink&#8230;</string>
+    <string name="input_exercise">Exercise&#8230;</string>
+    <string name="input_todo">Add to ToDo list&#8230;</string>
 
 </resources>
