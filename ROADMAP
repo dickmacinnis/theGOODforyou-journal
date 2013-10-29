@@ -1,0 +1,49 @@
+store log entries in database (rather than text file as it is now)
+
+enable client->server connection, so that server can query client databases
+
+users should be able to enter their personal profile info like age, sex, etc. in the app's settings menu
+
+allow users to link their facebook (and other social network) accounts, so that the GOOD for you app can retrieve user data (and not data about a user's contacts) like mood and status. This should (for now at least) be a one way sync, with no data pushed to facebook from the GOOD for you app 
+
+tablet version of app should feature drag and drop editing of question order, and disable on long press. the entire list should be editable from the settings menu.
+
+the settings menu should contain privacy first, then sync and backup settings (including Facebook and Google integration possibly foursquare and twitter), and finally asp customization including the aforementioned menu editing and custom field creation.
+
+the main view of the app is the questions and/or controls. it should be scrollable to accommodate large lists with reminder, alarm, and time tracking controls. eventually the ability to add photos, drawings, audio recordings and video should be added. it could be a new launcher. the second view should be graphs, third pie charts, and fourth lists. long clicking on these views should give the option to view suggestions for improvement (based on research including research based on mining user data).
+
+add GPS, time, and other tracking options (including eventually biometric data from devices like the angel watch), to every entry type.
+	
+add money in/out field
+
+add "what are you working on" field
+
+write all entries to separate tables in a database
+
+combine all fields for both phone versions and widget
+
+allow remote server to query this database
+	
+allow users to sync and backup database
+	
+make sure database is encrypted
+	
+add clock functions to the three time fields
+	
+make the text view change depending on which input is selected
+	
+make the log view human readable
+	
+allow users to select previous entries, and either log them again (with current timestamp), or set a reminder (or alarm)
+	
+make long press on entry show the previously mentioned options, edit, delete, and "add to to do"
+
+give to-do items a "completed" check box as well as the option to add a reminder
+
+make sure alarms and reminders are repeatable
+	
+let each entry have both chart and graph views (as well as table)
+	
+make entry types easily programmable and shareable
+	
+create "smart reminders" such as dietary, hygiene, and mental health suggestions. these can be suggested when looking at an overview of log
